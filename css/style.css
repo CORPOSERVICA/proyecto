@@ -4522,6 +4522,18 @@ input[type="button"].btn-block {
   justify-content: space-between;
 }
 
+.titulos {
+  text-align: right;
+  position: relative;
+  justify-content: left; 
+  /*display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;*/
+}
+
+
+
 .navbar-brand {
   display: inline-block;
   padding-top: 0.3125rem;
@@ -7219,6 +7231,10 @@ button.bg-dark:focus {
 
 .justify-content-between {
   justify-content: space-between !important;
+}
+
+.justify-content-between-l {
+  justify-content: left !important;
 }
 
 .justify-content-around {
@@ -10043,7 +10059,7 @@ a.text-dark:hover, a.text-dark:focus {
     min-width: 992px !important;
   }
   .container {
-    min-width: 992px !important;
+    min-width: 1000px !important;
   }
   .navbar {
     display: none;
